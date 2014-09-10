@@ -1,0 +1,7 @@
+h1. arc_admin_comment_preview
+
+This is a Textpattern plugin for adding comment previews to the admin comment edit pages.
+
+h2. Requirements
+
+Textpattern 4.0.8+
