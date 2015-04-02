@@ -1,6 +1,6 @@
 <?php
 $plugin['name'] = 'arc_admin_comment_preview';
-$plugin['version'] = '0.1.1';
+$plugin['version'] = '0.1.2';
 $plugin['author'] = 'Andy Carter';
 $plugin['author_uri'] = 'http://andy-carter.com/';
 $plugin['description'] = 'Adds a comment preview in the admin comments edit screen';
@@ -32,7 +32,7 @@ h2. License
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Andy Carter
+Copyright (c) 2015 Andy Carter
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -47,19 +47,24 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 # --- BEGIN PLUGIN CODE ---
 
 if (@txpinterface == 'admin') {
-
-    register_callback('arc_admin_comment_preview','discuss','discuss_edit');
-
+    register_callback('arc_admin_comment_preview', 'discuss', 'discuss_edit');
 }
 
-function arc_admin_comment_preview() {
-
+/**
+ * Add a comment preview to the discuss_edit step using JavaScript.
+ *
+ * @return void
+ */
+function arc_admin_comment_preview()
+{
     $js = '<script language="javascript" type="text/javascript">';
-    $js.= '$(document).ready(function(){
-        $("textarea").after("<div style=\'width:450px;\'>"+$("textarea").val()+"</div>")});';
-    $js.= '</script>';
+    $js .= '$(document).ready(function(){
+        $("textarea").after("<div style=\"width:100%;clear:both;\">"+$("textarea").val()+"</div>")});';
+    $js .= '</script>';
 
     echo $js;
+
+    return;
 }
 
 # --- END PLUGIN CODE ---
