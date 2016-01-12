@@ -1,4 +1,4 @@
-# arc_admin_comment_preview v0.1.2
+# arc_admin_comment_preview v0.1.3
 # Adds a comment preview in the admin comments edit screen
 # Andy Carter
 # http://andy-carter.com/
@@ -10,7 +10,7 @@
 # ......................................................................
 
 YTo5OntzOjQ6Im5hbWUiO3M6MjU6ImFyY19hZG1pbl9jb21tZW50X3ByZXZpZXciO3M6Nzoi
-dmVyc2lvbiI7czo1OiIwLjEuMiI7czo2OiJhdXRob3IiO3M6MTE6IkFuZHkgQ2FydGVyIjtz
+dmVyc2lvbiI7czo1OiIwLjEuMyI7czo2OiJhdXRob3IiO3M6MTE6IkFuZHkgQ2FydGVyIjtz
 OjEwOiJhdXRob3JfdXJpIjtzOjIzOiJodHRwOi8vYW5keS1jYXJ0ZXIuY29tLyI7czoxMToi
 ZGVzY3JpcHRpb24iO3M6NTY6IkFkZHMgYSBjb21tZW50IHByZXZpZXcgaW4gdGhlIGFkbWlu
 IGNvbW1lbnRzIGVkaXQgc2NyZWVuIjtzOjQ6InR5cGUiO2k6MTtzOjQ6ImhlbHAiO3M6MzI0
@@ -28,7 +28,7 @@ PC9oMj4KCgk8cD5UbyB1bmluc3RhbGwgYXJjX2FkbWluX2NvbW1lbnRfcHJldmlldyBzaW1w
 bHkgZGVsZXRlIHRoZSBwbHVnaW4gZnJvbSB0aGUgJiM4MjE2O1BsdWdpbnMmIzgyMTc7IHRh
 Yi48L3A+CgoJPGgyPkxpY2Vuc2U8L2gyPgoKCTxwPlRoZSA8c3BhbiBjbGFzcz0iY2FwcyI+
 TUlUPC9zcGFuPiBMaWNlbnNlICg8c3BhbiBjbGFzcz0iY2FwcyI+TUlUPC9zcGFuPik8L3A+
-CgoJPHA+Q29weXJpZ2h0ICYjMTY5OyAyMDE1IEFuZHkgQ2FydGVyPC9wPgoKCTxwPlBlcm1p
+CgoJPHA+Q29weXJpZ2h0ICYjMTY5OyAyMDE2IEFuZHkgQ2FydGVyPC9wPgoKCTxwPlBlcm1p
 c3Npb24gaXMgaGVyZWJ5IGdyYW50ZWQsIGZyZWUgb2YgY2hhcmdlLCB0byBhbnkgcGVyc29u
 IG9idGFpbmluZyBhIGNvcHkgb2YgdGhpcyBzb2Z0d2FyZSBhbmQgYXNzb2NpYXRlZCBkb2N1
 bWVudGF0aW9uIGZpbGVzICh0aGUgJiM4MjIwO1NvZnR3YXJlJiM4MjIxOyksIHRvIGRlYWwg

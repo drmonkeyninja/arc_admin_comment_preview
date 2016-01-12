@@ -1,6 +1,6 @@
 <?php
 $plugin['name'] = 'arc_admin_comment_preview';
-$plugin['version'] = '0.1.2';
+$plugin['version'] = '0.1.3';
 $plugin['author'] = 'Andy Carter';
 $plugin['author_uri'] = 'http://andy-carter.com/';
 $plugin['description'] = 'Adds a comment preview in the admin comments edit screen';
