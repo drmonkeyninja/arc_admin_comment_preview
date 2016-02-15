@@ -4,4 +4,12 @@ This is a Textpattern plugin for adding comment previews to the admin comment ed
 
 h2. Requirements
 
-Textpattern 4.0.8+
+* Textpattern 4.0.8+
+
+h2. Installation
+
+To install go to 'Plugins' under 'Admin' and paste the "plugin code":dist/arc_comment_preview.txt into the 'Install plugin' box, 'upload' and then 'install'. You will then need to activate the plugin.
+
+h2. Uninstall
+
+To uninstall arc_admin_comment_preview simply delete the plugin from the 'Plugins' page.
