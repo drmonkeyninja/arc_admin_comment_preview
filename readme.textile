@@ -8,7 +8,7 @@ h2. Requirements
 
 h2. Installation
 
-To install go to 'Plugins' under 'Admin' and paste the "plugin code":dist/arc_comment_preview.txt into the 'Install plugin' box, 'upload' and then 'install'. You will then need to activate the plugin.
+To install go to 'Plugins' under 'Admin' and paste the "plugin code":dist/arc_admin_comment_preview.txt into the 'Install plugin' box, 'upload' and then 'install'. You will then need to activate the plugin.
 
 h2. Uninstall
 
